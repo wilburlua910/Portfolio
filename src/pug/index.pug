@@ -1,0 +1,231 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Wilbur Lua
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none 
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpeg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Wilbur 
+                        span.text-primary Lua
+                    .subheading.mb-5
+                        | Software Engineer | Certified AWS Solutions Architect
+                        
+                    p.lead.mb-5
+                        | Hey there! I am Wilbur, a passionate and driven Full-Stack Engineer! I am experienced in the areas of 
+                        | Machine Learning, Artificial Intelligence and Cloud solutions architect 
+                        
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/wilbur-lua/', target="_blank")
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/wilburlua910', target="_blank")
+                            i.fab.fa-github
+
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-js
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-docker
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-git
+
+                    .subheading.mb-3 Additional Technologies & Skills
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Frameworks: React Native, Flutter, Flask, ExpressJS, NextJS
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Programming Languages: Python, Java, JavaScript, Typescript, Golang
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Automation/Testing: CypressJS, MochaJS, Selenium, JUnit, DetoxJS
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Virtualization/Infrastructure: VMware, Oracle Virtual Box, Amazon Web Services (AWS)
+
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Database: MySQL, PostgreSQL, MongoDB, AWS RDB, AWS Aurora, S3
+
+            hr.m-0
+
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Engineer
+                            .subheading.mb-3 CARRO | Data Science & AI department
+                            li 
+                                | Engineered Full-Stack mobile and web applications with React JS, Kotlin, Swift, Typescript, Firebase and AWS.
+                            li 
+                                | Develop automated code shipment and OTA capabilities, reduced software delivery time by over 90%.
+                            li 
+                                | Built custom native API for Data scientists to upload data and test AI models, resulted in more than 20%
+                                | improvement in overall machine learning model performance.
+                            li
+                                | Reduce redundant code by 30% using Clean architecture and SOLID principles.
+
+                        .flex-shrink-0
+                            span.text-primary Sept 2022 - May 2023
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Developer
+                            .subheading.mb-3 Envision Digital | Software Engineering Department
+                            li
+                                | Backend development for Virtual Power Plant (VPP) using Golang, Java, Spring Boot, Docker.
+                            li  
+                                | Developed End-to-end (E2E) test scripts with Cypress, JavaScript, increasing code coverage by over 90%.
+                            li  
+                                | Developed CI/CD pipeline using GitLab Runner, Docker, Linux which sped up code delivery by 200% from previous Jenkins pipeline.
+                        .flex-shrink-0
+                            span.text-primary Sept 2021 - Apr 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Developer
+                            .subheading.mb-3 GovTech Singapore | Smart Nation Platforms Solutions (SNPS)
+                            li
+                                | API development using NodeJS, Java, Elastic Search to monitor critical endpoints in Punggol Digital District.
+                            li  
+                                | Backend development using C#.NET, MQTT, DDS to monitor thousands of smart sensors within the JTC project.
+                                
+                        .flex-shrink-0
+                            span.text-primary May 2020 - Aug 2020
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Singapore Institute of Technology | University of Glasgow
+                            .subheading.mb-3 BSc(Hons) in Computer Science with Distinction
+                            div 
+                            p GPA: 4.43 (2nd Upper Hons)
+                            p Final Year Project Lightweight CNN-Based Deep Neural Networks published in 2022 5th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)
+                        .flex-shrink-0
+                            span.text-primary September 2019 - August 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Nanyang Polytechnic
+                            .subheading.mb-3 Diploma in Business Information Technology
+                            div
+                            p Director List AY 2016/2017 (Top 10% in Cohort)
+                            p NYP Gold Star Award
+                        .flex-shrink-0
+                            span.text-primary May 2014 - May 2017
+
+            hr.m-0
+
+            
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | AWS Solutions Architect Associate SAA-C03
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Runner-Up AWS x Carro Data Science Hackathon (2022)
+
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Semi-Finalist AWS Build On Hackathon (2020)
+
+
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
